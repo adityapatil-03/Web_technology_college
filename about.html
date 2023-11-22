@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | WCE</title>
+    <link rel="icon" href="Images/favicon.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+
+            <a href="index.html"><img src="Images/WCES_Logo.gif"></a>
+            <h1>Welcome to Walchand College of Engineering Sangli</h1>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                   
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+
+    <!-- About Us Content -->
+
+    <div class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Walchand College of Engineering Sangli</h1>
+                <p>
+                    <b>Walchand College of Engineering Sangli is a seat of higher technical education in
+                        India.</b>
+                        Walchand College of Engineering is situated midway between Sangli and Miraj cities at Vishrambag, Sangli. The WCE campus is located on about 90 acres of land on southern side of Sangli ? Miraj road.
+
+                        In 1947, the college made a modest beginning as New Engineering College, with a single program leading to B.E. (Civil) degree. In the year 1955, the College was renamed as Walchand College of Engineering as part of the new arrangements and pursuant to the Rehabilitation and Development Program mainly funded by Seth Walchand Hirachand Memorial Trust and the Government. The Government appointed an Ad Hoc Committee for conducting the college from May 1955, later replaced by the Administrative Council in 1956. The Ad Hoc Committee added two more degree programs in B.E. (Mechanical) and B.E. (Electrical) in 1955 with the intake of 20 each. Three Diploma programs also started in 1955 ? Civil (40 intake), Mechanical (20) and Electrical (20).
+                       
+                       Post Graduate programs in Civil, Mechanical and Electrical Engineering and Diploma program in Industrial Electronics were introduced in 1971. In 1986 the UG and PG programs in Electronics Engineering and UG program in Computer Science and Engineering were introduced.  
+                </p>
+            </div>
+            <div class="about-col">
+                <img src="Images/about img.jpeg">
+            </div>
+        </div>
+
+        <div class="mission">
+            <h1>Vision & Mission</h1>
+            <p>
+                To produce capable graduate engineers with an aptitude for research and leadership
+            </p>
+
+            <a href="#">University Vision and Strategic Plan 2020 - 2030 New</a>
+
+            <ul>
+                <li>
+                    <p>
+                        To impart quality education through demanding academic programmes.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        To enhance career opportunities for students through exposure to industry. 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        To promote excellence by encouraging creativity, critical thinking and discipline.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        To inculcate sensitivity toward society and a respect for the environment. 
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- JS for Toggle menu -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
